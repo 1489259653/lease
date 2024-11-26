@@ -4,9 +4,12 @@ package com.inool.lease.web.admin.controller.apartment;
 import com.inool.lease.common.result.Result;
 import com.inool.lease.model.entity.FeeKey;
 import com.inool.lease.model.entity.FeeValue;
+import com.inool.lease.web.admin.service.FeeKeyService;
+import com.inool.lease.web.admin.service.FeeValueService;
 import com.inool.lease.web.admin.vo.fee.FeeKeyVo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,16 +19,21 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin/fee")
 public class FeeController {
-
+    @Autowired
+    private FeeKeyService feeKeyService;
+    @Autowired
+    private FeeValueService feeValueService;
     @Operation(summary = "保存或更新杂费名称")
     @PostMapping("key/saveOrUpdate")
     public Result saveOrUpdateFeeKey(@RequestBody FeeKey feeKey) {
+        feeKeyService.saveOrUpdate(feeKey);
         return Result.ok();
     }
 
     @Operation(summary = "保存或更新杂费值")
     @PostMapping("value/saveOrUpdate")
     public Result saveOrUpdateFeeValue(@RequestBody FeeValue feeValue) {
+        feeValueService.saveOrUpdate(feeValue);
         return Result.ok();
     }
 
