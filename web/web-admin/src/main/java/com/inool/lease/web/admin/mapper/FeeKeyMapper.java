@@ -3,6 +3,8 @@ package com.inool.lease.web.admin.mapper;
 import com.inool.lease.model.entity.FeeKey;
 import com.inool.lease.web.admin.vo.fee.FeeKeyVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -12,8 +14,11 @@ import java.util.List;
 * @createDate 2023-07-24 15:48:00
 * @Entity com.inool.lease.model.FeeKey
 */
+@Mapper
+@Repository
 public interface FeeKeyMapper extends BaseMapper<FeeKey> {
 
+    List<FeeKeyVo> listFeeinfo();
 }
 
 

@@ -1,6 +1,7 @@
 package com.inool.lease.web.admin.controller.apartment;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.inool.lease.common.result.Result;
 import com.inool.lease.model.entity.FeeKey;
 import com.inool.lease.model.entity.FeeValue;
@@ -41,18 +42,24 @@ public class FeeController {
     @Operation(summary = "查询全部杂费名称和杂费值列表")
     @GetMapping("list")
     public Result<List<FeeKeyVo>> feeInfoList() {
-        return Result.ok();
+        List<FeeKeyVo> list = feeKeyService.listFeeInfo();
+        return Result.ok(list);
     }
 
     @Operation(summary = "根据id删除杂费名称")
     @DeleteMapping("key/deleteById")
     public Result deleteFeeKeyById(@RequestParam Long feeKeyId) {
+        feeKeyService.removeById(feeKeyId);
+        LambdaQueryWrapper<FeeValue> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(FeeValue::getFeeKeyId,feeKeyId);
+        feeValueService.remove(queryWrapper);
         return Result.ok();
     }
 
     @Operation(summary = "根据id删除杂费值")
     @DeleteMapping("value/deleteById")
     public Result deleteFeeValueById(@RequestParam Long id) {
+        feeValueService.removeById(id);
         return Result.ok();
     }
 }
