@@ -3,6 +3,7 @@ package com.inool.lease.web.admin.mapper;
 import com.inool.lease.model.entity.LabelInfo;
 import com.inool.lease.model.enums.ItemType;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -12,8 +13,10 @@ import java.util.List;
 * @createDate 2023-07-24 15:48:00
 * @Entity com.inool.lease.model.LabelInfo
 */
+@Mapper
 public interface LabelInfoMapper extends BaseMapper<LabelInfo> {
 
+    List<LabelInfo> selectListByApartmentId(Long id);
 }
 
 
