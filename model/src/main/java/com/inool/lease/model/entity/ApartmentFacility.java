@@ -14,6 +14,9 @@ public class ApartmentFacility extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
+    public ApartmentFacility() {
+    }
+
     @Schema(description = "公寓id")
     @TableField(value = "apartment_id")
     private Long apartmentId;
