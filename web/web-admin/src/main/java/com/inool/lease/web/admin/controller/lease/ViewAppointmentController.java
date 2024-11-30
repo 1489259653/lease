@@ -1,8 +1,10 @@
 package com.inool.lease.web.admin.controller.lease;
 
 
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.inool.lease.common.result.Result;
+import com.inool.lease.model.entity.ViewAppointment;
 import com.inool.lease.model.enums.AppointmentStatus;
 import com.inool.lease.web.admin.service.ViewAppointmentService;
 import com.inool.lease.web.admin.vo.appointment.AppointmentQueryVo;
@@ -31,6 +33,10 @@ public class ViewAppointmentController {
     @Operation(summary = "根据id更新预约状态")
     @PostMapping("updateStatusById")
     public Result updateStatusById(@RequestParam Long id, @RequestParam AppointmentStatus status) {
+        LambdaUpdateWrapper<ViewAppointment> updateWrapper = new LambdaUpdateWrapper<>();
+        updateWrapper.eq(ViewAppointment::getId,id);
+        updateWrapper.set(ViewAppointment::getAppointmentStatus,status);
+        service.update(updateWrapper);
         return Result.ok();
     }
 
