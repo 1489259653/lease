@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="修复Mapper.xml中的软件包错误，编写了根据id更新月状态信息，为预约时间设置了JsonFormat时区和时间格式参数。">
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/schedule/ScheduledTasks.java" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了用户信息管理相关控制层代码，以及增加了密码select=false注解，增加了安全性。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/AdminWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/AdminWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/lease/LeaseAgreementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/lease/LeaseAgreementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/user/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/user/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseAgreementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseAgreementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseAgreementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseAgreementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/system/SystemPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/system/SystemPostController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +149,8 @@
       <workItem from="1732892296711" duration="285000" />
       <workItem from="1732892667160" duration="6000" />
       <workItem from="1732952377907" duration="2391000" />
-      <workItem from="1733045216146" duration="2002000" />
+      <workItem from="1733045216146" duration="2210000" />
+      <workItem from="1733138003648" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -239,7 +232,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732954647339</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="编写了租约控制层，Mapper，服务层代码。">
+      <option name="closed" value="true" />
+      <created>1733049394764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733049394764</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加了定时任务用于检查租约过期情况。">
+      <option name="closed" value="true" />
+      <created>1733049424229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733049424229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="编写了用户信息管理相关控制层代码，以及增加了密码select=false注解，增加了安全性。">
+      <option name="closed" value="true" />
+      <created>1733049472495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733049472495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +284,10 @@
     <MESSAGE value="编写了预约控制层的分页查询预约信息方法。" />
     <MESSAGE value="编写了房间控制层保存 更新，获取，删除等接口。修改了mybatis方言，idea 方言。" />
     <MESSAGE value="修复Mapper.xml中的软件包错误，编写了根据id更新月状态信息，为预约时间设置了JsonFormat时区和时间格式参数。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复Mapper.xml中的软件包错误，编写了根据id更新月状态信息，为预约时间设置了JsonFormat时区和时间格式参数。" />
+    <MESSAGE value="编写了租约控制层，Mapper，服务层代码。" />
+    <MESSAGE value="增加了定时任务用于检查租约过期情况。" />
+    <MESSAGE value="编写了用户信息管理相关控制层代码，以及增加了密码select=false注解，增加了安全性。" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写了用户信息管理相关控制层代码，以及增加了密码select=false注解，增加了安全性。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
