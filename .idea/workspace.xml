@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了后台用户岗位管理控制层。">
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了后台用户管理控制层，服务层，Mapper接口等代码。并为密码字段添加了mybatisplus的局部配置。">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/constant/RedisConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/SystemUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/SystemUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/system/SystemUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/system/SystemUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemPostMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,8 @@
       <workItem from="1732892667160" duration="6000" />
       <workItem from="1732952377907" duration="2391000" />
       <workItem from="1733045216146" duration="2210000" />
-      <workItem from="1733138003648" duration="1563000" />
+      <workItem from="1733138003648" duration="1669000" />
+      <workItem from="1733230115074" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -272,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733138376611</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="编写了后台用户管理控制层，服务层，Mapper接口等代码。并为密码字段添加了mybatisplus的局部配置。">
+      <option name="closed" value="true" />
+      <created>1733139632135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733139632135</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +310,8 @@
     <MESSAGE value="增加了定时任务用于检查租约过期情况。" />
     <MESSAGE value="编写了用户信息管理相关控制层代码，以及增加了密码select=false注解，增加了安全性。" />
     <MESSAGE value="编写了后台用户岗位管理控制层。" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写了后台用户岗位管理控制层。" />
+    <MESSAGE value="编写了后台用户管理控制层，服务层，Mapper接口等代码。并为密码字段添加了mybatisplus的局部配置。" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写了后台用户管理控制层，服务层，Mapper接口等代码。并为密码字段添加了mybatisplus的局部配置。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
