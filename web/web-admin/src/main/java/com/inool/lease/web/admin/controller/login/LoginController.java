@@ -1,11 +1,14 @@
 package com.inool.lease.web.admin.controller.login;
 
 
+import com.inool.lease.common.login.LoginUserHolder;
 import com.inool.lease.common.result.Result;
+import com.inool.lease.common.utils.JwtUtil;
 import com.inool.lease.web.admin.service.LoginService;
 import com.inool.lease.web.admin.vo.login.CaptchaVo;
 import com.inool.lease.web.admin.vo.login.LoginVo;
 import com.inool.lease.web.admin.vo.system.user.SystemUserInfoVo;
+import io.jsonwebtoken.Claims;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +30,22 @@ public class LoginController {
     @Operation(summary = "登录")
     @PostMapping("login")
     public Result<String> login(@RequestBody LoginVo loginVo) {
-        return Result.ok();
+        String token =service.login(loginVo);
+        return Result.ok(token);
     }
 
     @Operation(summary = "获取登陆用户个人信息")
     @GetMapping("info")
-    public Result<SystemUserInfoVo> info() {
+    public Result<SystemUserInfoVo> info(@RequestHeader("access-token") String token) {
+        Claims claims = JwtUtil.parseToken(token);
+        Long userId = claims.get("userId", Long.class);
+        SystemUserInfoVo userInfo = service.getLoginUserInfo(userId);
         return Result.ok();
+    }
+    @Operation(summary = "获取登陆用户个人信息")
+    @GetMapping("info")
+    public Result<SystemUserInfoVo> info() {
+        SystemUserInfoVo userInfo = service.getLoginUserInfo(LoginUserHolder.getLoginUser().getUserId());
+        return Result.ok(userInfo);
     }
 }
