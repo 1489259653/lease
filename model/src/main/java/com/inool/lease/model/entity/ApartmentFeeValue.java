@@ -7,14 +7,12 @@ import lombok.*;
 
 @Schema(description = "公寓&杂费关联表")
 @TableName(value = "apartment_fee_value")
-@Builder
+
 @Data
 public class ApartmentFeeValue extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
-    public ApartmentFeeValue() {
-    }
 
     @Schema(description = "公寓id")
     @TableField(value = "apartment_id")
