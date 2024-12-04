@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了用户登录JwtUtil,编写了验证拦截器，编写了用户登录涉及的Mapper接口及实现XML语句添加了knife4j相关配置。">
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="修复了Lombok以前的多余注解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentFacility.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentFacility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentFeeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentFeeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/inool/lease/model/entity/ApartmentLabel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -158,7 +154,7 @@
       <workItem from="1733045216146" duration="2210000" />
       <workItem from="1733138003648" duration="1669000" />
       <workItem from="1733230115074" duration="3450000" />
-      <workItem from="1733312751783" duration="332000" />
+      <workItem from="1733312751783" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -296,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733233570311</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修复了Lombok以前的多余注解">
+      <option name="closed" value="true" />
+      <created>1733313122962</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733313122962</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +335,8 @@
     <MESSAGE value="编写了后台用户管理控制层，服务层，Mapper接口等代码。并为密码字段添加了mybatisplus的局部配置。" />
     <MESSAGE value="编写了用户登录获取验证码控制层，以及增加了Redis配置信息，增加了常量类。" />
     <MESSAGE value="编写了用户登录JwtUtil,编写了验证拦截器，编写了用户登录涉及的Mapper接口及实现XML语句添加了knife4j相关配置。" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写了用户登录JwtUtil,编写了验证拦截器，编写了用户登录涉及的Mapper接口及实现XML语句添加了knife4j相关配置。" />
+    <MESSAGE value="修复了Lombok以前的多余注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了Lombok以前的多余注解" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
