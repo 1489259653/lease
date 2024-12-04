@@ -40,12 +40,18 @@ public class LoginController {
         Claims claims = JwtUtil.parseToken(token);
         Long userId = claims.get("userId", Long.class);
         SystemUserInfoVo userInfo = service.getLoginUserInfo(userId);
-        return Result.ok();
+        return Result.ok(userInfo);
     }
+
+    /**
+     *
+
     @Operation(summary = "获取登陆用户个人信息")
     @GetMapping("info")
     public Result<SystemUserInfoVo> info() {
         SystemUserInfoVo userInfo = service.getLoginUserInfo(LoginUserHolder.getLoginUser().getUserId());
         return Result.ok(userInfo);
     }
+     *
+     */
 }
