@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="完成了用户端后端项目的创建。">
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/minio/MinioConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/minio/MinioConfiguration.java" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="修改了Minio对于web-app的不启动的注解。">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/sms/AliyunSMSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/sms/AliyunSmsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inool.AppWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.web中的所有" />
@@ -156,7 +168,7 @@
       <workItem from="1733230115074" duration="3450000" />
       <workItem from="1733312751783" duration="4090000" />
       <workItem from="1733318214334" duration="2000" />
-      <workItem from="1733365066351" duration="1463000" />
+      <workItem from="1733365066351" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -334,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733366400515</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="修改了Minio对于web-app的不启动的注解。">
+      <option name="closed" value="true" />
+      <created>1733366611798</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733366611798</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +393,8 @@
     <MESSAGE value="为redis增加了密码，删除了多余的登录函数" />
     <MESSAGE value="修复了图片信息接口中sql语句参数名不正确，修复了房间Service没有增加注解导致的错误" />
     <MESSAGE value="完成了用户端后端项目的创建。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了用户端后端项目的创建。" />
+    <MESSAGE value="修改了Minio对于web-app的不启动的注解。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了Minio对于web-app的不启动的注解。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
