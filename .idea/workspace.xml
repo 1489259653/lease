@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="增加了阿里云短信的业务，我想换成邮箱验证">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/mail/EmailApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/utils/VerifyCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-app/src/test/java/com/inool/lease/web/app/test/PersonManagerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编辑了mariadb相关信息，编写了邮箱测试类">
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +187,7 @@
       <workItem from="1733318214334" duration="2000" />
       <workItem from="1733365066351" duration="3073000" />
       <workItem from="1733457716501" duration="1638000" />
-      <workItem from="1733470468683" duration="2963000" />
+      <workItem from="1733470468683" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -391,7 +381,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733368135772</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="增加了网易邮箱的业务，现在可以通过邮箱向用户发送验证码">
+      <option name="closed" value="true" />
+      <created>1733473502906</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733473502906</updated>
+    </task>
+    <task id="LOCAL-00026" summary="编辑了mariadb相关信息，编写了邮箱测试类">
+      <option name="closed" value="true" />
+      <created>1733473557777</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733473557777</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +438,9 @@
     <MESSAGE value="完成了用户端后端项目的创建。" />
     <MESSAGE value="修改了Minio对于web-app的不启动的注解。" />
     <MESSAGE value="增加了阿里云短信的业务，我想换成邮箱验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了阿里云短信的业务，我想换成邮箱验证" />
+    <MESSAGE value="增加了网易邮箱的业务，现在可以通过邮箱向用户发送验证码" />
+    <MESSAGE value="编辑了mariadb相关信息，编写了邮箱测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="编辑了mariadb相关信息，编写了邮箱测试类" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
