@@ -20,5 +20,10 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="0@127.0.0.1" uuid="1c0de623-45fc-4119-ab5b-79f3a3205b83">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="REDIS" />
+      <user-name>lzy</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
