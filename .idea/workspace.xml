@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="修改了Minio对于web-app的不启动的注解。">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/sms/AliyunSMSProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/sms/AliyunSmsConfiguration.java" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="增加了阿里云短信的业务，我想换成邮箱验证">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/mail/EmailApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/inool/lease/common/utils/VerifyCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/test/java/com/inool/lease/web/app/test/PersonManagerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,41 +63,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.web中的所有.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.lease [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.lease [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.lease [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.lease [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.lease [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AdminWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/java/inool-oa-parent&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.PersonManagerApplicationTests.testMailSend.executor": "Run",
+    "JUnit.web中的所有.executor": "Run",
+    "Maven.lease [clean].executor": "Run",
+    "Maven.lease [install].executor": "Run",
+    "Maven.lease [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.lease [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor": "Run",
+    "Maven.lease [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdminWebApplication.executor": "Run",
+    "Spring Boot.AppWebApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Project/java/inool-oa-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.inool.lease.common.login" />
@@ -98,7 +108,23 @@
       <recent name="E:\Project\java\lease\lease\web\web-admin\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
+  <component name="RunManager" selected="Spring Boot.AppWebApplication">
+    <configuration name="PersonManagerApplicationTests.testMailSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inool.lease.web.app.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inool.lease.web.app.test" />
+      <option name="MAIN_CLASS_NAME" value="com.inool.lease.web.app.test.PersonManagerApplicationTests" />
+      <option name="METHOD_NAME" value="testMailSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="web中的所有" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonManagerApplicationTests.testMailSend" />
         <item itemvalue="JUnit.web中的所有" />
       </list>
     </recent_temporary>
@@ -168,7 +195,9 @@
       <workItem from="1733230115074" duration="3450000" />
       <workItem from="1733312751783" duration="4090000" />
       <workItem from="1733318214334" duration="2000" />
-      <workItem from="1733365066351" duration="2558000" />
+      <workItem from="1733365066351" duration="3073000" />
+      <workItem from="1733457716501" duration="1638000" />
+      <workItem from="1733470468683" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -354,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733366611798</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="增加了阿里云短信的业务，我想换成邮箱验证">
+      <option name="closed" value="true" />
+      <created>1733368135772</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733368135772</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +431,8 @@
     <MESSAGE value="修复了图片信息接口中sql语句参数名不正确，修复了房间Service没有增加注解导致的错误" />
     <MESSAGE value="完成了用户端后端项目的创建。" />
     <MESSAGE value="修改了Minio对于web-app的不启动的注解。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了Minio对于web-app的不启动的注解。" />
+    <MESSAGE value="增加了阿里云短信的业务，我想换成邮箱验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了阿里云短信的业务，我想换成邮箱验证" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
