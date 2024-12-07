@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编辑了mariadb相关信息，编写了邮箱测试类">
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了登录管理的控制层，service层，service实现类相关方法。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/region/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/region/RegionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,43 +55,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.PersonManagerApplicationTests.testMailSend.executor": "Run",
-    "JUnit.web中的所有.executor": "Run",
-    "Maven.lease [clean].executor": "Run",
-    "Maven.lease [install].executor": "Run",
-    "Maven.lease [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.lease [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor": "Run",
-    "Maven.lease [verify].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AdminWebApplication.executor": "Run",
-    "Spring Boot.AppWebApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Project/java/inool-oa-parent",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.PersonManagerApplicationTests.testMailSend.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.web中的所有.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/java/inool-oa-parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.inool.lease.common.login" />
@@ -187,7 +189,8 @@
       <workItem from="1733318214334" duration="2000" />
       <workItem from="1733365066351" duration="3073000" />
       <workItem from="1733457716501" duration="1638000" />
-      <workItem from="1733470468683" duration="3314000" />
+      <workItem from="1733470468683" duration="3655000" />
+      <workItem from="1733573259230" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -397,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733473557777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="增加了响应拦截器">
+      <option name="closed" value="true" />
+      <created>1733474067704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733474067704</updated>
+    </task>
+    <task id="LOCAL-00028" summary="编写了登录管理的控制层，service层，service实现类相关方法。">
+      <option name="closed" value="true" />
+      <created>1733474119135</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733474119135</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="创建了项目，完成了标签，租期，公寓信息的controller" />
     <MESSAGE value="属性关键字和属性值的controller编写，以及Mapper接口的注解。" />
     <MESSAGE value="编写了杂费项目以及杂费的Controller编写" />
     <MESSAGE value="编写了根据区县获得信息的controller，写入了minio模板信息。" />
@@ -440,7 +458,9 @@
     <MESSAGE value="增加了阿里云短信的业务，我想换成邮箱验证" />
     <MESSAGE value="增加了网易邮箱的业务，现在可以通过邮箱向用户发送验证码" />
     <MESSAGE value="编辑了mariadb相关信息，编写了邮箱测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑了mariadb相关信息，编写了邮箱测试类" />
+    <MESSAGE value="增加了响应拦截器" />
+    <MESSAGE value="编写了登录管理的控制层，service层，service实现类相关方法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写了登录管理的控制层，service层，service实现类相关方法。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
