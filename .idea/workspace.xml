@@ -4,10 +4,173 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编辑了mariadb相关信息，编写了邮箱测试类">
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LoginServiceImpl.java" afterDir="false" />
+    <list default="true" id="1bd1f492-57cf-40fe-abe1-3a438698ae24" name="更改" comment="编写了地区控制层相关代码">
+      <change afterPath="$PROJECT_DIR$/web/web-app/src/test/java/com/inool/lease/web/app/test/PaymentTypeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentFacilityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentFacilityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentFeeValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentFeeValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ApartmentLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/AttrKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/AttrKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/AttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/AttrValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/BrowsingHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/BrowsingHistoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/CityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/CityInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/DistrictInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/DistrictInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FacilityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FacilityInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FeeKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FeeKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FeeValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/FeeValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/GraphInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/GraphInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LabelInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LabelInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseAgreementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseAgreementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseTermMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/LeaseTermMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/PaymentTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/PaymentTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ProvinceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ProvinceInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomAttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomAttrValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomFacilityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomFacilityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomLeaseTermMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomLeaseTermMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomPaymentTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/RoomPaymentTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/SystemUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ViewAppointmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/mapper/ViewAppointmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentFeeValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentFeeValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentLabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ApartmentLabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/AttrKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/AttrKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/AttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/AttrValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/BrowsingHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/BrowsingHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/CityInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/CityInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/DistrictInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/DistrictInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FacilityInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FacilityInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FeeKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FeeKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FeeValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/FeeValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/GraphInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/GraphInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LabelInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LabelInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseAgreementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseAgreementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseTermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/LeaseTermService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/PaymentTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/PaymentTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ProvinceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ProvinceInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomAttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomAttrValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomLabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomLabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomLeaseTermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomLeaseTermService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomPaymentTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/RoomPaymentTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/SystemUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ViewAppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/ViewAppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentFacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentFeeValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ApartmentLabelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/AttrKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/AttrKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/AttrValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/AttrValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/BrowsingHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/CityInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/CityInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/DistrictInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FacilityInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FeeKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FeeKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FeeValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/FeeValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/GraphInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/GraphInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LabelInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LabelInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseAgreementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseTermServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/LeaseTermServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/PaymentTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ProvinceInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomAttrValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomFacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomLabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomLabelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomLeaseTermServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/RoomPaymentTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemPostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemPostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/SystemUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/inool/lease/web/admin/service/impl/ViewAppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/payment/PaymentTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/controller/payment/PaymentTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentFacilityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentFacilityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentFeeValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentFeeValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ApartmentLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/AttrKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/AttrKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/AttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/AttrValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/BrowsingHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/BrowsingHistoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/CityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/CityInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/DistrictInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/DistrictInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FacilityInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FacilityInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FeeKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FeeKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FeeValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/FeeValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/GraphInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/GraphInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LabelInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LabelInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LeaseAgreementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LeaseAgreementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LeaseTermMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/LeaseTermMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/PaymentTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/PaymentTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ProvinceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ProvinceInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomAttrValueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomAttrValueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomFacilityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomFacilityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomLeaseTermMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomLeaseTermMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomPaymentTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/RoomPaymentTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ViewAppointmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/mapper/ViewAppointmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentFeeValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentFeeValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentLabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ApartmentLabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/AttrKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/AttrKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/AttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/AttrValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/BrowsingHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/BrowsingHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/CityInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/CityInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/DistrictInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/DistrictInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FacilityInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FacilityInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FeeKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FeeKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FeeValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/FeeValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/GraphInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/GraphInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LabelInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LabelInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LeaseAgreementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LeaseAgreementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LeaseTermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/LeaseTermService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/PaymentTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/PaymentTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ProvinceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ProvinceInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomAttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomAttrValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomLabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomLabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomLeaseTermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomLeaseTermService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomPaymentTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/RoomPaymentTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ViewAppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/ViewAppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentFacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentFeeValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentFeeValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentLabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ApartmentLabelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/AttrKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/AttrKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/AttrValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/AttrValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/BrowsingHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/BrowsingHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/CityInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/CityInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/DistrictInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/DistrictInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FacilityInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FacilityInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FeeKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FeeKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FeeValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/FeeValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/GraphInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/GraphInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LabelInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LabelInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LeaseAgreementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LeaseAgreementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LeaseTermServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/LeaseTermServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/PaymentTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/PaymentTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ProvinceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ProvinceInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomAttrValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomAttrValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomFacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomLabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomLabelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomLeaseTermServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomLeaseTermServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomPaymentTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/RoomPaymentTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ViewAppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/java/com/inool/lease/web/app/service/impl/ViewAppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/PaymentTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/mapper/PaymentTypeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +189,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,6 +222,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.PaymentTypeTests.testSelectPaymentListByRoomId.executor": "Run",
     "JUnit.PersonManagerApplicationTests.testMailSend.executor": "Run",
     "JUnit.web中的所有.executor": "Run",
     "Maven.lease [clean].executor": "Run",
@@ -98,7 +265,23 @@
       <recent name="E:\Project\java\lease\lease\web\web-admin\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppWebApplication">
+  <component name="RunManager" selected="JUnit.PaymentTypeTests.testSelectPaymentListByRoomId">
+    <configuration name="PaymentTypeTests.testSelectPaymentListByRoomId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inool.lease.web.app.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inool.lease.web.app.test" />
+      <option name="MAIN_CLASS_NAME" value="com.inool.lease.web.app.test.PaymentTypeTests" />
+      <option name="METHOD_NAME" value="testSelectPaymentListByRoomId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonManagerApplicationTests.testMailSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-app" />
       <extension name="coverage">
@@ -139,6 +322,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentTypeTests.testSelectPaymentListByRoomId" />
         <item itemvalue="JUnit.PersonManagerApplicationTests.testMailSend" />
         <item itemvalue="JUnit.web中的所有" />
       </list>
@@ -187,7 +371,8 @@
       <workItem from="1733318214334" duration="2000" />
       <workItem from="1733365066351" duration="3073000" />
       <workItem from="1733457716501" duration="1638000" />
-      <workItem from="1733470468683" duration="3314000" />
+      <workItem from="1733470468683" duration="3655000" />
+      <workItem from="1733573259230" duration="4205000" />
     </task>
     <task id="LOCAL-00001" summary="创建了项目，完成了标签，租期，公寓信息的controller">
       <option name="closed" value="true" />
@@ -397,7 +582,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733473557777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="增加了响应拦截器">
+      <option name="closed" value="true" />
+      <created>1733474067704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733474067704</updated>
+    </task>
+    <task id="LOCAL-00028" summary="编写了登录管理的控制层，service层，service实现类相关方法。">
+      <option name="closed" value="true" />
+      <created>1733474119135</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733474119135</updated>
+    </task>
+    <task id="LOCAL-00029" summary="编写了地区控制层相关代码">
+      <option name="closed" value="true" />
+      <created>1733574419967</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733574419967</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,8 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="创建了项目，完成了标签，租期，公寓信息的controller" />
-    <MESSAGE value="属性关键字和属性值的controller编写，以及Mapper接口的注解。" />
     <MESSAGE value="编写了杂费项目以及杂费的Controller编写" />
     <MESSAGE value="编写了根据区县获得信息的controller，写入了minio模板信息。" />
     <MESSAGE value="使用docker增加了minio配置，编写了fileuploader controller，以及编写了，公寓详情信息的获取。" />
@@ -440,7 +647,10 @@
     <MESSAGE value="增加了阿里云短信的业务，我想换成邮箱验证" />
     <MESSAGE value="增加了网易邮箱的业务，现在可以通过邮箱向用户发送验证码" />
     <MESSAGE value="编辑了mariadb相关信息，编写了邮箱测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑了mariadb相关信息，编写了邮箱测试类" />
+    <MESSAGE value="增加了响应拦截器" />
+    <MESSAGE value="编写了登录管理的控制层，service层，service实现类相关方法。" />
+    <MESSAGE value="编写了地区控制层相关代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写了地区控制层相关代码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

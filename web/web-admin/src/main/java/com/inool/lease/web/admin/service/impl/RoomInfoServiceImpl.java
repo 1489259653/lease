@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author liubo
+ 
  * @description 针对表【room_info(房间信息表)】的数据库操作Service实现
  * @createDate 2023-07-24 15:48:00
  */
