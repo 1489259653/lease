@@ -2,6 +2,7 @@ package com.inool.lease.web.app.service;
 
 import com.inool.lease.model.entity.ApartmentInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.inool.lease.web.app.vo.apartment.ApartmentItemVo;
 
 /**
  * 
@@ -9,4 +10,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @createDate 2023-07-26 11:12:39
  */
 public interface ApartmentInfoService extends IService<ApartmentInfo> {
+    ApartmentItemVo selectApartmentItemVoById(Long apartmentId);
 }
