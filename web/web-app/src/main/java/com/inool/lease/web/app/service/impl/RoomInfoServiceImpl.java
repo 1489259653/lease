@@ -2,10 +2,12 @@ package com.inool.lease.web.app.service.impl;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.inool.lease.common.login.LoginUserHolder;
 import com.inool.lease.model.entity.*;
 import com.inool.lease.model.enums.ItemType;
 import com.inool.lease.web.app.mapper.*;
 import com.inool.lease.web.app.service.ApartmentInfoService;
+import com.inool.lease.web.app.service.BrowsingHistoryService;
 import com.inool.lease.web.app.service.RoomInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.inool.lease.web.app.vo.apartment.ApartmentItemVo;
@@ -31,6 +33,8 @@ import java.util.List;
 @Slf4j
 public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
         implements RoomInfoService {
+    @Autowired
+    private BrowsingHistoryService browsingHistoryService;
     @Autowired
     private RoomInfoMapper roomInfoMapper;
     @Autowired
@@ -80,7 +84,7 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
 
         RoomDetailVo roomDetailVo = new RoomDetailVo();
         BeanUtils.copyProperties(roomInfo, roomDetailVo);
-
+        browsingHistoryService.saveHistory(LoginUserHolder.getLoginUser().getUserId(), id);
         roomDetailVo.setApartmentItemVo(apartmentItemVo);
         roomDetailVo.setGraphVoList(graphVoList);
         roomDetailVo.setAttrValueVoList(attrValueVoList);

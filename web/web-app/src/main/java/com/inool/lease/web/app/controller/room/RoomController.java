@@ -34,6 +34,7 @@ public class RoomController {
     @GetMapping("getDetailById")
     public Result<RoomDetailVo> getDetailById(@RequestParam Long id) {
         RoomDetailVo roomInfo = roomInfoService.getDetailById(id);
+
         return Result.ok(roomInfo);
     }
 
