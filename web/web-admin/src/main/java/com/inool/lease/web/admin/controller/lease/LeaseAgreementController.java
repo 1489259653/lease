@@ -35,6 +35,7 @@ public class LeaseAgreementController {
     public Result<IPage<AgreementVo>> page(@RequestParam long current, @RequestParam long size, AgreementQueryVo queryVo) {
         IPage<AgreementVo> page = new Page<>(current,size);
         IPage<AgreementVo> list = service.pageAgreementByQuery(page,queryVo);
+        System.out.println(list);
         return Result.ok(list);
     }
 

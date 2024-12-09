@@ -20,8 +20,8 @@ public class LoginController {
     private LoginService service;
     @GetMapping("login/getCode")
     @Operation(summary = "获取邮箱验证码")
-    public Result getCode(@RequestParam String email) {
-        service.getEMailCode(email);
+    public Result getCode(@RequestParam String phone) {
+        service.getEMailCode(phone);
         return Result.ok();
     }
 

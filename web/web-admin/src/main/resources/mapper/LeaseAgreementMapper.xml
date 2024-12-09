@@ -21,7 +21,7 @@
         </association>
     </resultMap>
 
-    <select id="pageAgreementByQuery" resultType="com.inool.lease.web.admin.vo.agreement.AgreementVo">
+    <select id="pageAgreementByQuery" resultMap="agreementVoMap">
         select la.id,
         la.phone,
         la.name,
