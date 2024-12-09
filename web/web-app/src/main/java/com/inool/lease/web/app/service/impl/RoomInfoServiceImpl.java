@@ -84,7 +84,6 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
 
         RoomDetailVo roomDetailVo = new RoomDetailVo();
         BeanUtils.copyProperties(roomInfo, roomDetailVo);
-        browsingHistoryService.saveHistory(LoginUserHolder.getLoginUser().getUserId(), id);
         roomDetailVo.setApartmentItemVo(apartmentItemVo);
         roomDetailVo.setGraphVoList(graphVoList);
         roomDetailVo.setAttrValueVoList(attrValueVoList);
@@ -93,6 +92,7 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
         roomDetailVo.setPaymentTypeList(paymentTypeList);
         roomDetailVo.setFeeValueVoList(feeValueVoList);
         roomDetailVo.setLeaseTermList(leaseTermList);
+        browsingHistoryService.saveHistory(LoginUserHolder.getLoginUser().getUserId(), id);
         return roomDetailVo;
     }
 
