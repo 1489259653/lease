@@ -12,7 +12,7 @@
             <result column="key_id" property="attrKeyId"/>
         </collection>
     </resultMap>
-    <select id="listAttrInfo" resultType="com.inool.lease.web.admin.vo.attr.AttrKeyVo">
+    <select id="listAttrInfo" resultMap="BaseResultMap">
         select k.id,
                k.name        key_name,
                v.id          value_id,

@@ -13,7 +13,7 @@
             <result column="key_id" property="feeKeyId"/>
         </collection>
     </resultMap>
-    <select id="listFeeinfo" resultType="com.inool.lease.web.admin.vo.fee.FeeKeyVo">
+    <select id="listFeeinfo" resultMap="FeeInfoList">
         select k.id,
                k.name       key_name,
                v.id         value_id,

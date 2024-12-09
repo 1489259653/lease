@@ -11,7 +11,7 @@
         </association>
     </resultMap>
 
-    <select id="pageAppointmentByQuery" resultType="com.inool.lease.web.admin.vo.appointment.AppointmentVo">
+    <select id="pageAppointmentByQuery" resultMap="AppointmentVoMap">
         select va.id,
         va.user_id,
         va.name,
