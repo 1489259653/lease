@@ -8,7 +8,7 @@
         <artifactId>lease</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    <packaging>jar</packaging>
     <artifactId>model</artifactId>
 
     <properties>
